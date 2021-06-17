@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navbar,Nav} from 'react-bootstrap';
 import EducationPage from '../pages/Education';
+import './index.css';
 
 function Header() 
     {

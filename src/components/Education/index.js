@@ -33,9 +33,9 @@ function Education()
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
             >
-              <h3 className="vertical-timeline-element-title">
+              <h4 className="vertical-timeline-element-title">
                 {element.title}
-              </h3>
+              </h4>
               <h5 className="vertical-timeline-element-subtitle">
                 {element.location}
               </h5>

@@ -1,11 +1,13 @@
 import React from 'react';
-
+import { CSSTransition} from 'react-transition-group';
 
 function Skills() 
     {
      return (
          <div className="container">
              <br></br>
+        <CSSTransition in={true} appear={true} timeout={900} classNames='fade'>
+        <div>
         <h1>Skills</h1>
         <br></br>
         <h3>Programming Languages:</h3>
@@ -28,6 +30,8 @@ function Skills()
         {/* <p>HTML, CSS, JavaScript, PHP, ReactJS, Django, MySQL Database</p> */}
         <h3>Others: </h3>
         <p>MATLAB, AutoCAD, Git, Bash, Adobe Photoshop, LaTeX, Beamer, RaspberryPi, Arduino</p>
+        </div>
+        </CSSTransition>
      </div>
      )
      
