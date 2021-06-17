@@ -1,5 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/index';
+import Routes from './routes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,7 +21,11 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1>Hello! I am Karthik and welcome to my website. It is under construction, so please don't mind coming again.</h1>
+      {/* <Header></Header> */}
+      <Router>
+      <Routes />
+    </Router>
+      <h1>Hello! I am Karthik and welcome to my website. It is under construction, so please visit later.</h1>
     </div>
   );
 }
