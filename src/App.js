@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1>Hello! I am Karthik and welcome to my website. It is under construction, so please don't mind.</h1>
+      <h1>Hello! I am Karthik and welcome to my website. It is under construction, so please don't mind coming again.</h1>
     </div>
   );
 }
